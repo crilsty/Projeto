@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package projetogithub;
      //importação das classes necessárias
      //layouts para alinhamento dos componentes
@@ -172,17 +167,17 @@ package projetogithub;
            {
              if (imc_mulheres[0]>massa)
              {
-                 string = String.format("CUIDADO!!!Voce estar abaixo do peso! IMC %.2f",massa);
+                 string = String.format("CUIDADO!!!Você está abaixo do peso! IMC %.2f",massa);
                   foto=0;
               }
                else if((imc_mulheres[0]<massa) && (massa<=imc_mulheres[1]))
              {
-                  string = String.format("PARABENS!!Voce estar com o peso ideal! IMC %.2f",massa);
+                  string = String.format("PARABÉNS!!Você está com o peso ideal! IMC %.2f",massa);
                   foto=1;
               }
                else
               {
-                  string = String.format("CUIDADO!!Voce estar obesa! IMC %.2f",massa);
+                  string = String.format("CUIDADO!!Você está obesa! IMC %.2f",massa);
                  foto=2;
                }
                //configure a foto conforme a posição da variável foto
@@ -192,18 +187,18 @@ package projetogithub;
             {
                if (imc_homens[0]>massa)
               {
-                  string = String.format("CUIDADO!!!Voce estar abaixo do peso! IMC %.2f",massa);
+                  string = String.format("CUIDADO!!!Você está abaixo do peso! IMC %.2f",massa);
                  //configura a posição que será exibido a imagem
                   foto=0;
               }
               else if((imc_homens[0]<massa) && (massa<imc_homens[1]))
                {
-                 string = String.format("PARABENS!!Voce estar com o peso ideal! IMC %.2f",massa);
+                 string = String.format("PARABÉNS!!Você estae com o peso ideal! IMC %.2f",massa);
                   foto=1;
                }
                else
                {
-                 string = String.format("CUIDADO!!Voce estar obeso! IMC %.2f",massa);
+                 string = String.format("CUIDADO!!Você está obeso! IMC %.2f",massa);
                   foto=2;
              }
                //configure a foto conforme a posição da variável foto
