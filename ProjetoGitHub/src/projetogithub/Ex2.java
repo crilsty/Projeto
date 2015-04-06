@@ -85,7 +85,7 @@ package projetogithub;
        public Ex2()
        {
         //título  da janela
-        super("Calculando o Índice de massa corporal");
+        super("Calculando o Índice de Massa Corporal");
         //alinhamento do frame com o uso do objeto flowLayout
         super.setLayout(flowLayout);
         //tamanho da janela
